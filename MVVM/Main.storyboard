@@ -24,8 +24,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ezp-GG-FxC">
-                                <rect key="frame" x="188.5" y="114" width="37" height="30"/>
-                                <state key="normal" title="Table"/>
+                                <rect key="frame" x="181" y="114" width="52" height="30"/>
+                                <state key="normal" title="Binding"/>
                                 <connections>
                                     <segue destination="1fs-pe-Wny" kind="show" id="Apk-YP-td4"/>
                                 </connections>
@@ -55,10 +55,10 @@
             </objects>
             <point key="canvasLocation" x="467" y="-48"/>
         </scene>
-        <!--Table-->
+        <!--Binding-->
         <scene sceneID="OJI-ag-swx">
             <objects>
-                <viewControllerPlaceholder storyboardName="Table" id="1fs-pe-Wny" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Binding" id="1fs-pe-Wny" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="wzR-z1-wnB"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iU4-Iv-6Gy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

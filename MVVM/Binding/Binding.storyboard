@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Binding View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" customClass="TableViewController" customModule="MVVM" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Y6W-OH-hqX" customClass="BindingViewController" customModule="MVVM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="dQA-Da-4og" customClass="TableViewCell" customModule="MVVM" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="dQA-Da-4og" customClass="BindingTableViewCell" customModule="MVVM" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dQA-Da-4og" id="8qH-a5-xRS">
@@ -33,20 +33,13 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KRL-8X-Akk">
-                                                    <rect key="frame" x="348" y="7" width="46" height="30"/>
-                                                    <state key="normal" title="Button"/>
-                                                </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="KRL-8X-Akk" secondAttribute="trailing" constant="20" id="2XC-LN-cRa"/>
                                                 <constraint firstItem="P5X-04-B0Z" firstAttribute="leading" secondItem="8qH-a5-xRS" secondAttribute="leadingMargin" constant="10" id="8Cx-0b-sNG"/>
                                                 <constraint firstItem="P5X-04-B0Z" firstAttribute="centerY" secondItem="8qH-a5-xRS" secondAttribute="centerY" id="dd6-Wd-9aI"/>
-                                                <constraint firstItem="KRL-8X-Akk" firstAttribute="centerY" secondItem="8qH-a5-xRS" secondAttribute="centerY" id="ocE-hh-KjW"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="button" destination="KRL-8X-Akk" id="v2a-m0-Xdx"/>
                                             <outlet property="nameLabel" destination="P5X-04-B0Z" id="qQJ-PF-g2x"/>
                                         </connections>
                                     </tableViewCell>
